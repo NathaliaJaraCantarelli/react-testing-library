@@ -1,8 +1,6 @@
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../renderWithRouter';
-// import Pokemon from '../components/Pokemon';
-// import PokemonDetails from '../pages/PokemonDetails';
 import App from '../App';
 
 describe('Testa os componentes do Pokemon', () => {
